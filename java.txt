@@ -1,0 +1,55 @@
+1. maven project giải quyết bài toán gì (dynamic có vấn đề gì)
+- nhược điểm khi xài dynamic project
+- maven giải quyết như thế nào (cơ chế)
+2. mvn clean install có tác dụng gì
+3. folder M2 (chưa thư viện) có thay đổi vị trí được không
+- Nếu có thì thay đổi như thế nào
+- Nếu không thì tại sao lại không thể thay đổi
+4. 1 workspace nên để bao nhiêu project, và tại sao lại như vậy
+5. Spring boot có những version nào và nó tương đương như thế nào với version của spring framework
+
+
+
+6. Java web có những trường phái gì, mô tả cách xây dựng web service theo từng trường phái
+- java open source
+1 jee, j2ee, jakarta ee
+jsp, servlet, JPA, EJB, JAX-RS
+build web service bằng JAX-RS
+web service sử dụng servlet
+2 spring framework(sẽ học)
+webservice sử dụng spring framework thuần tự add các thư viện cần thiết: jackson, jackson-databind
+2014 => now: web service sử dụng spring boot
+- java trả phí cms(content management system)
+custom tùy theo ý của mình
+AEM (adobe experience management)
+magnolia
+mule
+
+7. Tại sao phải sử dụng web service, web service có những loại nào, mô tả chi tiết từng loại, trong khóa học sẽ sử dụng loại nào
+web service đồng bộ dữ liệu về 1 kiểu vd chung
+vd: xử lý data app hay web đều đưa về 1 data chung => hiển thị ở cả app là web
+=> khi app sửa thì sẽ hiển thị trên web
+
+dữ liệu method trả ra
+1. json
+2. xml
+
+client
+
+{
+    "name":"",
+    "abc":""
+
+}
+web service là khái niệm chung
+web service dùng data chung json => REST API
+web service dùng data chung xml => SOAP API
+
+
+8. Khi khai báo dependency có 1 số đặc điểm như: có version, không có version, sử dụng starter
+Vậy mấy đặc điểm đó là như thế nào, phân tích rõ
+9. Khi add thư viện vào trong file POM.xml thì thư viện được download về theo quy trình như thế nào
+10. Quay video demo tạo project web service sử dụng spring boot theo bài hướng dẫn của laptrinhjavaweb
+- Link bài hướng dẫn: https://laptrinhjavaweb.com/tao-project-spring-boot-01
+11. Quay video demo tạo project spring mvc sử dụng spring boot theo bài hướng dẫn của laptrinhjavaweb
+- Link bài hướng dẫn: https://laptrinhjavaweb.com/huong-dan-tao-project-spring-boot-co-ban-10#tao-project-spring-boot-02
