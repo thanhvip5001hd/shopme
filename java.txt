@@ -7,7 +7,8 @@
 - Nếu không thì tại sao lại không thể thay đổi
 4. 1 workspace nên để bao nhiêu project, và tại sao lại như vậy
 5. Spring boot có những version nào và nó tương đương như thế nào với version của spring framework
-
+1.5.x: spring framework 4
+2.x.x: spring framework 5
 
 
 6. Java web có những trường phái gì, mô tả cách xây dựng web service theo từng trường phái
@@ -48,6 +49,21 @@ web service dùng data chung xml => SOAP API
 
 8. Khi khai báo dependency có 1 số đặc điểm như: có version, không có version, sử dụng starter
 Vậy mấy đặc điểm đó là như thế nào, phân tích rõ
+sử dụng starter: khi sử dụng starter là sử dụng starter parent của spring framework phát triển
+project mình sử dụng là project con -> thừa kế project parent của spring framework
+parent có sẵn thư viện, có sẵn cấu hình theo phiên bản
+
+có version khai báo khi parent project chưa có dependency này
+=> cần phải khai báo version cho dependency
+
+không có version khai báo khi mà parent project có dependency này
+=> không cần phải khai báo version
+
+version của dependency phụ thuộc vào version của starter parent
+
+có version
+không có version
+
 9. Khi add thư viện vào trong file POM.xml thì thư viện được download về theo quy trình như thế nào
 10. Quay video demo tạo project web service sử dụng spring boot theo bài hướng dẫn của laptrinhjavaweb
 - Link bài hướng dẫn: https://laptrinhjavaweb.com/tao-project-spring-boot-01
