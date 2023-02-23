@@ -1,11 +1,23 @@
 1. maven project giải quyết bài toán gì (dynamic có vấn đề gì)
 - nhược điểm khi xài dynamic project
+Nhược điểm khi xài dynamic project: khi chuyển project sang máy
+khác thì phải download lại thư viện, trỏ lại thư viện => mất thời gian
 - maven giải quyết như thế nào (cơ chế)
+maven project giải quyết bằng cách đẩy hết thư viện 
+lên cloud và xây dựng cơ chế chỉ cần khai báo dependency thì thư viện sẽ tự động được download
 2. mvn clean install có tác dụng gì
+- clean file jar cũ
+- install file jar mới
 3. folder M2 (chưa thư viện) có thay đổi vị trí được không
+- thay đổi được và thay đổi trong config/settings.xml
+
 - Nếu có thì thay đổi như thế nào
 - Nếu không thì tại sao lại không thể thay đổi
+
 4. 1 workspace nên để bao nhiêu project, và tại sao lại như vậy
+1 workspace nên để 1 project để dễ quản lý hơn, nếu để nhiều project thì rất dễ bị rối, 
+khi code phải vào giao diện ide để close project
+
 5. Spring boot có những version nào và nó tương đương như thế nào với version của spring framework
 1.5.x: spring framework 4
 2.x.x: spring framework 5
@@ -65,7 +77,10 @@ có version
 không có version
 
 9. Khi add thư viện vào trong file POM.xml thì thư viện được download về theo quy trình như thế nào
+
 10. Quay video demo tạo project web service sử dụng spring boot theo bài hướng dẫn của laptrinhjavaweb
 - Link bài hướng dẫn: https://laptrinhjavaweb.com/tao-project-spring-boot-01
+link tạo project spring boot:
+https://drive.google.com/file/d/1vuM4cMCZ24BLKNe5zeKq-wxVk3Fobc0n/view?usp=sharing
 11. Quay video demo tạo project spring mvc sử dụng spring boot theo bài hướng dẫn của laptrinhjavaweb
 - Link bài hướng dẫn: https://laptrinhjavaweb.com/huong-dan-tao-project-spring-boot-co-ban-10#tao-project-spring-boot-02
