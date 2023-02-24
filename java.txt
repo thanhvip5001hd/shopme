@@ -77,6 +77,7 @@ có version
 không có version
 
 9. Khi add thư viện vào trong file POM.xml thì thư viện được download về theo quy trình như thế nào
+thư viện sẽ được tự động download về thư mục /.m2 trên local và buildpath vào project
 
 10. Quay video demo tạo project web service sử dụng spring boot theo bài hướng dẫn của laptrinhjavaweb
 - Link bài hướng dẫn: https://laptrinhjavaweb.com/tao-project-spring-boot-01
